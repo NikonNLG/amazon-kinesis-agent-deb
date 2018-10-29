@@ -1,0 +1,2 @@
+/var/run/aws-kinesis-agent
+/var/log/aws-kinesis-agent

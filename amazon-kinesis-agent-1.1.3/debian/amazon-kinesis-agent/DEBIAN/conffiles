@@ -1,0 +1,3 @@
+/etc/cron.d/aws-kinesis-agent
+/etc/default/aws-kinesis-agent
+/etc/init.d/aws-kinesis-agent

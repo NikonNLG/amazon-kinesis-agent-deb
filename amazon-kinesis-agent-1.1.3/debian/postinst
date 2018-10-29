@@ -1,0 +1,14 @@
+export agent_user_name=aws-kinesis-agent-user
+export daemon_name=aws-kinesis-agent
+
+update-rc.d $daemon_name defaults
+chkconfig --add $daemon_name
+systemctl daemon-reload
+
+id -u $agent_user_name > /dev/null 2>&1 || \
+useradd -c "Streaming Data Agent" -r $agent_user_name
+usermod -L $agent_user_name
+
+# change the owner of log files and checkpoint files to the user
+chown -R $agent_user_name /var/run/$daemon_name
+chown -R $agent_user_name /var/log/$daemon_name
