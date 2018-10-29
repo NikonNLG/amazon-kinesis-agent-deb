@@ -1,0 +1,22 @@
+Format: 1.8
+Date: Thu, 25 Oct 2018 10:00:47 +0000
+Source: amazon-kinesis-agent
+Binary: amazon-kinesis-agent
+Architecture: amd64
+Version: 1.1.3-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Denis Klyukvin <d.klykvin@gmail.com>
+Changed-By: Denis Klyukvin <d.klykvin@gmail.com>
+Description:
+ amazon-kinesis-agent - Amazon Kinesis data collector
+Changes:
+ amazon-kinesis-agent (1.1.3-1) unstable; urgency=medium
+ .
+   * Initial release (Closes: OPS-817)
+Checksums-Sha1:
+ dcb8441fd0fe2912ab3cfd3580e438a2bcf36f6c 18535128 amazon-kinesis-agent_1.1.3-1_amd64.deb
+Checksums-Sha256:
+ 31898e2681459917207af41376b8abd8d516d4f5c6150c9b6e88c7690f8ac629 18535128 amazon-kinesis-agent_1.1.3-1_amd64.deb
+Files:
+ 2a619af2140677e8f7c3708e46e787b1 18535128 misc optional amazon-kinesis-agent_1.1.3-1_amd64.deb

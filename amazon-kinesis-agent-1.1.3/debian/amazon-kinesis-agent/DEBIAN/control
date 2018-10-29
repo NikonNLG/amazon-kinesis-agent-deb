@@ -1,0 +1,14 @@
+Package: amazon-kinesis-agent
+Version: 1.1.3-1
+Architecture: amd64
+Maintainer: Denis Klyukvin <d.klykvin@gmail.com>
+Installed-Size: 19878
+Depends: openjdk-8-jre
+Section: misc
+Priority: optional
+Multi-Arch: same
+Homepage: https://github.com/awslabs/amazon-kinesis-agent
+Description: Amazon Kinesis data collector
+ The Amazon Kinesis Agent is a stand-alone Java software application
+ that offers an easier way to collect and ingest data into Amazon Kinesis
+ services, including Amazon Kinesis Streams and Amazon Kinesis Firehose.
