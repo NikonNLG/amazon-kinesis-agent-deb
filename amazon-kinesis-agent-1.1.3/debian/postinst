@@ -2,7 +2,6 @@ export agent_user_name=aws-kinesis-agent-user
 export daemon_name=aws-kinesis-agent
 
 update-rc.d $daemon_name defaults
-chkconfig --add $daemon_name
 systemctl daemon-reload
 
 id -u $agent_user_name > /dev/null 2>&1 || \

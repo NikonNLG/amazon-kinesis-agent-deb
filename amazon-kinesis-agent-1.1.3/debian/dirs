@@ -1,2 +1,4 @@
 /var/run/aws-kinesis-agent
 /var/log/aws-kinesis-agent
+/etc/aws-kinesis
+/etc/aws-kinesis/agent.d

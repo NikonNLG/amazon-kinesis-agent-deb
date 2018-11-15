@@ -2,6 +2,6 @@ bin/start-aws-kinesis-agent /usr/bin/
 bin/aws-kinesis-agent-babysit /usr/bin/
 dependencies/* /usr/share/aws-kinesis-agent/lib/
 ant_build/lib/* /usr/share/aws-kinesis-agent/lib/
-bin/aws-kinesis-agent /etc/init.d/
+aws-kinesis-agent /etc/init.d/
 support/cron/aws-kinesis-agent /etc/cron.d/
 support/sysconfig/aws-kinesis-agent /etc/default/
